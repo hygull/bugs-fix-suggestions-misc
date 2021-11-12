@@ -13,3 +13,5 @@ A repository containing the codes, snippets, links, suggestions etc. related to 
 - [duplicate_key_value_unique_constraint__id_already_exists.md](./databases/postgresql/duplicate_key_value_unique_constraint__id_already_exists.md)
 - [Datetime: NameError, AttributeError, ImportError, IPython](./modules/datetimes/name_error__attribute_error__import_error.md)
 - [Save time by numeric names to run commmands in nohup](./shell/nohup.md)
+
+- [pandas - DataFrame, mask, loc, where](./modules/pandas_/how-to-replace-values-based-on-conditions.md)

@@ -69,3 +69,68 @@ Out[25]:
 In [26]:        
 
 ```
+
+
+```python
+In [26]: column1 = pd.Series([1, 45, 67, 89, 90])                                                                                              
+
+In [27]: column2 = pd.Series([11, 50, 60, 30, 9])                                                                                              
+
+In [28]: column3 = pd.Series([89, 23, 65, 33, 39])                                                                                             
+
+In [29]: df = pd.DataFrame()                                                                                                                   
+
+In [30]: df.set1 = column1                                                                                                                     
+/Library/Frameworks/Python.framework/Versions/3.6/bin/ipython:1: UserWarning: Pandas doesn't allow columns to be created via a new attribute name - see https://pandas.pydata.org/pandas-docs/stable/indexing.html#attribute-access
+  #!/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6
+
+In [31]: df                                                                                                                                    
+Out[31]: 
+Empty DataFrame
+Columns: []
+Index: []
+
+In [32]: df["set1"] = column1                                                                                                                  
+
+In [33]: df                                                                                                                                    
+Out[33]: 
+   set1
+0     1
+1    45
+2    67
+3    89
+4    90
+
+In [34]: df["set2"] = column2                                                                                                                  
+
+In [35]: df["set3"] = column3                                                                                                                  
+
+In [36]: df                                                                                                                                    
+Out[36]: 
+   set1  set2  set3
+0     1    11    89
+1    45    50    23
+2    67    60    65
+3    89    30    33
+4    90     9    39
+
+In [37]: df.set1                                                                                                                               
+Out[37]: 
+0     1
+1    45
+2    67
+3    89
+4    90
+dtype: int64
+
+In [38]: df['set1']                                                                                                                            
+Out[38]: 
+0     1
+1    45
+2    67
+3    89
+4    90
+Name: set1, dtype: int64
+
+In [39]:     
+```

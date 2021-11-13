@@ -14,4 +14,5 @@ A repository containing the codes, snippets, links, suggestions etc. related to 
 - [Datetime: NameError, AttributeError, ImportError, IPython](./modules/datetimes/name_error__attribute_error__import_error.md)
 - [Save time by numeric names to run commmands in nohup](./shell/nohup.md)
 
+- [pandas - DataFrame](./modules/pandas_/dataframe.md)
 - [pandas - DataFrame, mask, loc, where](./modules/pandas_/how-to-replace-values-based-on-conditions.md)

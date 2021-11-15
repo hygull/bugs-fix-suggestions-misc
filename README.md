@@ -17,3 +17,5 @@ A repository containing the codes, snippets, links, suggestions etc. related to 
 - [pandas - DataFrame](./modules/pandas_/dataframe.md)
 - [pandas - DataFrame, mask, loc, where](./modules/pandas_/how-to-replace-values-based-on-conditions.md)
 - [map, list](./shell/map_list.md)
+- [map, list](./shell/list_.md)
+

@@ -18,4 +18,6 @@ A repository containing the codes, snippets, links, suggestions etc. related to 
 - [pandas - DataFrame, mask, loc, where](./modules/pandas_/how-to-replace-values-based-on-conditions.md)
 - [map, list](./shell/map_list.md)
 - [map, list](./shell/list_.md)
+- [ChainMap example](./modules/collections_/ChainMap_example.md)
+- [numpy.ndarray is not callable](./modules/pandas_/numpy.ndarray_is_not_callable.md)
 
